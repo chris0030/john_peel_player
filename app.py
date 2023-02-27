@@ -146,4 +146,4 @@ while True:
         albums.pop(0)
     if len(albums) == 0:
         library = load_library()
-        load_albums_from_library(library)
+        albums = load_albums_from_library(library)
